@@ -1,0 +1,43 @@
+{
+  "name": "radio-code-calculator",
+  "main": "./src/RadioCodeCalculator.mjs",
+  "version": "1.0.0",
+  "description": "Radio Code Calculator is an online service along with Web API and SDK for generating car radio unlock codes for popular vehicle brands.",
+  "type": "module",
+  "keywords": [
+    "radio",
+    "code",
+    "navigation",
+    "calculator",
+    "generator",
+    "vehicle",
+    "car",
+    "automotive",
+    "radiocode",
+    "radiocodes",
+    "api"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Bartosz Wójcik",
+      "email": "support@pelock.com",
+      "homepage": "https://www.pelock.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PELock/Radio-Code-Calculator-JavaScript"
+  },
+  "dependencies": {
+    "form-data": "latest",
+    "node-fetch": "latest"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^29.4.3"
+  },
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  }
+}
