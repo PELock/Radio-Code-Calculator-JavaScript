@@ -55,27 +55,30 @@ If you are not a programmer - don't worry. Just use our [online calculator](http
 
 ## Installation
 
-The preferred way of WebApi interface installation is via [composer](https://getcomposer.org/).
+The preferred way of WebApi interface installation is via [NPM](https://www.npmjs.com/).
 
 Run:
 
 ```
-php composer.phar require --prefer-dist pelock/radio-code-calculator "*"
+npm i radio-code-calculator
 ```
 
 Or add this entry:
 
 ```
-"pelock/radio-code-calculator": "*"
+  "dependencies": {
+    "radio-code-calculator": "latest"
+  },
+
 ```
 
-directly to your `composer.json` in `require` section.
+directly to your `package.json` in `dependencies` section.
 
-The installation package is available at https://packagist.org/packages/pelock/radio-code-calculator
+The installation package is available at https://www.npmjs.com/package/radio-code-calculator
 
-### Usage examples
+## Usage examples
 
-## Radio code generation
+### Radio code generation
 
 This example demonstrates code generation for a selected radio model. All input parameter validation is done on the server side and if the radio serial number has an invalid length or pattern - the service will return an error.
 
@@ -137,7 +140,7 @@ myRadioCodeCalculator.calc(RadioModels.FORD_M_SERIES, "123456").then((result) =>
 });
 ```
 
-## Radio code generation with additional offline validation
+### Radio code generation with additional offline validation
 
 Radio codes are generated based on input parameters such as the **radio's serial number**, among others.
 
@@ -252,7 +255,7 @@ myRadioCodeCalculator.calc(radioModel, serial).then((result) => {
 });
 ```
 
-## Download list of supported radio code calculators
+### Download list of supported radio code calculators
 
 If you would like to download information about all supported radio models and their parameters such as serial number length and pattern - you can do so.
 
@@ -325,7 +328,7 @@ myRadioCodeCalculator.list().then((result) => {
 });
 ```
 
-## Downloading the parameters of the selected radio calculator
+### Downloading the parameters of the selected radio calculator
 
 You can download the parameters of the selected calculator.
 
@@ -390,7 +393,7 @@ myRadioCodeCalculator.info("ford-m-series").then((result) => {
 });
 ```
 
-## Checking activation key
+### Checking activation key
 
 By checking the activation key status, we will get information about the license owner, license type and license expiration date.
 
