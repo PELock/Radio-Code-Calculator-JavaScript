@@ -59,8 +59,8 @@ myRadioCodeCalculator.list().then((result) => {
 
 }).catch((error) => {
 
-    if (error["error"] == RadioErrors.INVALID_LICENSE)
-        console.log("Invalid license key!");
-    else
-        console.log(`Something unexpected happen while trying to login to the service (error code ${error}).`);
+	if (error["error"] == RadioErrors.INVALID_LICENSE)
+		console.log("Invalid license key!");
+	else
+		console.log(`Something unexpected happen while trying to login to the service (error code ${error}).`);
 });

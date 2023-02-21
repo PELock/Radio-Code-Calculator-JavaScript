@@ -65,18 +65,18 @@ let error = radioModel.validate(serial, extra);
 
 if (error !== RadioErrors.SUCCESS)
 {
-    if (error === RadioErrors.INVALID_SERIAL_LENGTH)
-        console.log(`Invalid serial number length (expected ${radioModel.serial_max_len} characters<br>`);
-    else if (error == RadioErrors.INVALID_SERIAL_PATTERN)
-        console.log(`Invalid serial number regular expression pattern (expected ${radioModel.serial_regex_pattern()} regex pattern)<br>`);
-    else if (error == RadioErrors.INVALID_SERIAL_NOT_SUPPORTED)
-        console.log("This serial number is not supported");
-    else if (error == RadioErrors.INVALID_EXTRA_LENGTH)
-        console.log(`Invalid extra data length (expected ${radioModel.extra_max_len} characters)<br>`);
-    else if (error == RadioErrors.INVALID_EXTRA_PATTERN)
-        console.log(`Invalid extra data regular expression pattern (expected ${radioModel.extra_regex_pattern()} regex pattern)<br>`);
+	if (error === RadioErrors.INVALID_SERIAL_LENGTH)
+		console.log(`Invalid serial number length (expected ${radioModel.serial_max_len} characters<br>`);
+	else if (error == RadioErrors.INVALID_SERIAL_PATTERN)
+		console.log(`Invalid serial number regular expression pattern (expected ${radioModel.serial_regex_pattern()} regex pattern)<br>`);
+	else if (error == RadioErrors.INVALID_SERIAL_NOT_SUPPORTED)
+		console.log("This serial number is not supported");
+	else if (error == RadioErrors.INVALID_EXTRA_LENGTH)
+		console.log(`Invalid extra data length (expected ${radioModel.extra_max_len} characters)<br>`);
+	else if (error == RadioErrors.INVALID_EXTRA_PATTERN)
+		console.log(`Invalid extra data regular expression pattern (expected ${radioModel.extra_regex_pattern()} regex pattern)<br>`);
 
-    process.exit(1);
+	process.exit(1);
 }
 
 //
