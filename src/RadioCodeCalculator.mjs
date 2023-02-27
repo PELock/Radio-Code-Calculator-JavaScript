@@ -6,7 +6,7 @@
  *
  * Generate radio unlocking codes for various radio players.
  *
- * Version      : v1.00
+ * Version      : v1.1.0
  * JS           : ES6
  * Dependencies : form-data, node-fetch
  * Author       : Bartosz Wójcik (support@pelock.com)

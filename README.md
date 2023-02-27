@@ -28,6 +28,7 @@ Individual calculators are available on our site as a paid service for end custo
 * [Ford TravelPilot EX, FX & NX](https://www.pelock.com/products/ford-travelpilot-ex-fx-nx-radio-code-generator-calculator)
 * [Chrysler Panasonic TM9](https://www.pelock.com/products/chrysler-panasonic-tm9-car-radio-code-calculator-generator)
 * [Fiat Stilo & Bravo Visteon](https://www.pelock.com/products/fiat-stilo-bravo-visteon-radio-code-calculator-generator)
+* [Fiat DAIICHI MOPAR](https://www.pelock.com/products/fiat-daiichi-radio-code-calculator-generator)
 
 ## Use of radio code calculator
 
@@ -76,6 +77,16 @@ directly to your `package.json` in `dependencies` section.
 
 The installation package is available at https://www.npmjs.com/package/radio-code-calculator
 
+## Packages for other programming languages
+
+The installation packages have been uploaded to repositories for several popular programming languages and their source codes have been published on GitHub:
+
+| Repository   | Language | Installation | Package | GitHub |
+| ------------ | ---------| ------------ | ------- | ------ |
+| ![Packagist repository for PHP and Composer](https://www.pelock.com/img/logos/repo-packagist-composer.png) | PHP | Add the following line to `require` section of your `composer.json` file `"pelock/radio-code-calculator": "*"` | [Packagist](https://packagist.org/packages/pelock/radio-code-calculator) | [Sources](https://github.com/PELock/Radio-Code-Calculator-PHP)
+| ![PyPI repository for Python](https://www.pelock.com/img/logos/repo-pypi.png) | Python | Run `pip install radio-code-calculator` | [PyPi](https://pypi.org/project/radio-code-calculator/) | [Sources](https://github.com/PELock/Radio-Code-Calculator-Python)
+| ![NPM repository for JavaScript and TypeScript](https://www.pelock.com/img/logos/repo-npm.png) | JavaScript, TypeScript | Run `npm i radio-code-calculator` or add the following to `dependencies` section of your `package.json` file `"dependencies": { "radio-code-calculator": "latest" },` | [NPM](https://www.npmjs.com/package/radio-code-calculator) | [Sources](https://github.com/PELock/Radio-Code-Calculator-JavaScript)
+
 ## Usage examples
 
 ### Radio code generation
@@ -92,7 +103,7 @@ This example demonstrates code generation for a selected radio model. All input 
  * In this example, we will demonstrate how to generate a code for a specific
  * type of car radio.
  *
- * Version      : v1.00
+ * Version      : v1.1.0
  * JS           : ES6
  * Dependencies : radio-code-calculator
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -159,7 +170,7 @@ Validation of this data is done on the server side. However, to make things more
  * type of car radio. This example shows how to use an extended offline
  * validation.
  *
- * Version      : v1.00
+ * Version      : v1.1.0
  * JS           : ES6
  * Dependencies : radio-code-calculator
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -270,7 +281,7 @@ If you would like to download information about all supported radio models and t
  * parameters like name, maximum length of the radio serial number and its
  * regex pattern.
  *
- * Version      : v1.00
+ * Version      : v1.1.0
  * JS           : ES6
  * Dependencies : radio-code-calculator
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -342,7 +353,7 @@ You can download the parameters of the selected calculator.
  * In this example, we will demonstrate how to get information about the
  * specific radio calculator and its parameters (max. length & regex pattern).
  *
- * Version      : v1.00
+ * Version      : v1.1.0
  * JS           : ES6
  * Dependencies : radio-code-calculator
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -406,7 +417,7 @@ By checking the activation key status, we will get information about the license
  *
  * In this example we will verify our activation key status.
  *
- * Version      : v1.00
+ * Version      : v1.1.0
  * JS           : ES6
  * Dependencies : radio-code-calculator
  * Author       : Bartosz Wójcik (support@pelock.com)
