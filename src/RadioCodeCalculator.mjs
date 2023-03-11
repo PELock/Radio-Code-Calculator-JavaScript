@@ -6,7 +6,7 @@
  *
  * Generate radio unlocking codes for various radio players.
  *
- * Version      : v1.1.0
+ * Version      : v1.1.1
  * JS           : ES6
  * Dependencies : form-data, node-fetch
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -279,6 +279,7 @@ export class RadioModels
 	static FIAT_STILO_BRAVO_VISTEON = new RadioModel("fiat-stilo-bravo-visteon", 6, "/^([a-zA-Z0-9]{6})$/");
 	static TOYOTA_ERC = new RadioModel("toyota-erc", 16, "/^([a-zA-Z0-9]{16})$/");
 	static JEEP_CHEROKEE = new RadioModel("jeep-cherokee", 14, "/^([a-zA-Z0-9]{10}[0-9]{4})$/");
+	static NISSAN_GLOVE_BOX = new RadioModel("nissan-glove-box", 12, "/^([a-zA-Z0-9]{12})$/");
 }
 
 /**

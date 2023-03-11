@@ -7,7 +7,7 @@
  * In this example, we will demonstrate how to get information about the
  * specific radio calculator and its parameters (max. length & regex pattern).
  *
- * Version      : v1.1.0
+ * Version      : v1.1.1
  * JS           : ES6
  * Dependencies : radio-code-calculator
  * Author       : Bartosz Wójcik (support@pelock.com)
