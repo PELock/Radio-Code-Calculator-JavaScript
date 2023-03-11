@@ -8,7 +8,7 @@
  * type of car radio. This example shows how to use an extended offline
  * validation.
  *
- * Version      : v1.1.1
+ * Version      : v1.1.2
  * JS           : ES6
  * Dependencies : radio-code-calculator
  * Author       : Bartosz Wójcik (support@pelock.com)

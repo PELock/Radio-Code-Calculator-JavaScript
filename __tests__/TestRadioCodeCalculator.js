@@ -8,7 +8,7 @@
  *
  * Run with npm test
  *
- * Version      : v1.1.1
+ * Version      : v1.1.2
  * JS           : ES6
  * Dependencies : form-data, node-fetch
  * Author       : Bartosz Wójcik (support@pelock.com);
