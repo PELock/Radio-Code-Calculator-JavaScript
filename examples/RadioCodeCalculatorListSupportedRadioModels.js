@@ -8,7 +8,7 @@
  * parameters like name, maximum length of the radio serial number and its
  * regex pattern.
  *
- * Version      : v1.1.2
+ * Version      : v1.1.3
  * JS           : ES6
  * Dependencies : radio-code-calculator
  * Author       : Bartosz Wójcik (support@pelock.com)
