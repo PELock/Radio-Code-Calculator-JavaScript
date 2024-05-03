@@ -6,7 +6,7 @@
  *
  * Generate radio unlocking codes for various radio players.
  *
- * Version      : v1.1.4
+ * Version      : v1.1.5
  * JS           : ES6
  * Dependencies : form-data, node-fetch
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -14,7 +14,7 @@
  * Homepage     : https://www.pelock.com
  *
  * @link https://www.pelock.com/products/radio-code-calculator
- * @copyright Copyright (c) 2021-2023 PELock LLC
+ * @copyright Copyright (c) 2021-2024 PELock LLC
  * @license Apache-2.0
  *
 /*****************************************************************************/
@@ -277,10 +277,12 @@ export class RadioModels
 	static FORD_V_SERIES = new RadioModel("ford-v-series", 6, "/^([0-9]{6})$/");
 	static FORD_TRAVELPILOT = new RadioModel("ford-travelpilot", 7, "/^([0-9]{7})$/");
 	static FIAT_STILO_BRAVO_VISTEON = new RadioModel("fiat-stilo-bravo-visteon", 6, "/^([a-zA-Z0-9]{6})$/");
+	static FIAT_DAIICHI = new RadioModel("fiat-daiichi", 4, "/^([0-9]{4})$/");
+	static FIAT_VP = new RadioModel("fiat-vp", 4, "/^([0-9]{4})$/");
 	static TOYOTA_ERC = new RadioModel("toyota-erc", 16, "/^([a-zA-Z0-9]{16})$/");
 	static JEEP_CHEROKEE = new RadioModel("jeep-cherokee", 14, "/^([a-zA-Z0-9]{10}[0-9]{4})$/");
 	static NISSAN_GLOVE_BOX = new RadioModel("nissan-glove-box", 12, "/^([a-zA-Z0-9]{12})$/");
-    static ECLIPSE_ESN = new  RadioModel("eclipse-esn", 6, "/^([a-zA-Z0-9]{6})$/");
+	static ECLIPSE_ESN = new  RadioModel("eclipse-esn", 6, "/^([a-zA-Z0-9]{6})$/");
 	static JAGUAR_ALPINE = new RadioModel("jaguar-alpine", 5, "/^([0-9]{5})$/");
 }
 
