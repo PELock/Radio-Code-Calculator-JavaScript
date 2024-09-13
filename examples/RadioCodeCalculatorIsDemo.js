@@ -6,7 +6,7 @@
  *
  * In this example we will verify our activation key status.
  *
- * Version      : v1.1.5
+ * Version      : v.1.1.6
  * JS           : ES6
  * Dependencies : radio-code-calculator
  * Author       : Bartosz Wójcik (support@pelock.com)

@@ -8,7 +8,7 @@
  *
  * Run with npm test
  *
- * Version      : v1.1.5
+ * Version      : v.1.1.6
  * JS           : ES6
  * Dependencies : form-data, node-fetch
  * Author       : Bartosz Wójcik (support@pelock.com);
@@ -99,6 +99,7 @@ test("test_radio_codes()", () =>
 	let codes = [
 		[ RadioModels.RENAULT_DACIA, "Z999", "0060"],
 		[ RadioModels.CHRYSLER_PANASONIC_TM9, "1234", "8865"],
+		[ RadioModels.CHRYSLER_DODGE_VP, "E3NE", "5635"],
 		[ RadioModels.FORD_M_SERIES, "123456", "2487"],
 		[ RadioModels.FORD_V_SERIES, "123456", "3067"],
 		[ RadioModels.FORD_TRAVELPILOT, "1234567", "3982"],
