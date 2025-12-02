@@ -451,17 +451,17 @@ export class RadioCodeCalculator
 			// default error -> only returned by the SDK
 			let default_error = { "error": RadioErrors.ERROR_CONNECTION };
 
-			// add activation key to the parameters array
+			// return error if the activation key is not set (no demo version)
 			if (this._apiKey === null)
 			{
 				rejected({ "error": RadioErrors.INVALID_LICENSE });
 				return;
 			}
 
-			// przygotuj forme do zapytania POST
+			// prepare a form for the POST request
 			const form = new FormData();
 
-			// do parametrow dodaj klucz Web API
+			// include activation key to the main request form
 			form.append("key", this._apiKey);
 
 			Object.keys(params_array).forEach(param => {
